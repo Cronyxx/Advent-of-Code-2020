@@ -47,6 +47,7 @@ int main()
                 numOfValid++;
             }
         }
+        file.close();
     }
     cout << numOfValid << endl;
 }

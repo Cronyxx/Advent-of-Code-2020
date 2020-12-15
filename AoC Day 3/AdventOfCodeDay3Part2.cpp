@@ -40,6 +40,7 @@ int main()
             numOfCols = line.length();
             numOfRows++;
         }
+        file.close();
     }
 
     int a = getTrees(map, numOfRows, numOfCols, 1, 1);

@@ -21,7 +21,9 @@ int main()
             numOfCol = line.length();
             numOfRows++;
         }
+        file.close();
     }
+    
 
     int r_index = 0;
     int c_index = 0;
