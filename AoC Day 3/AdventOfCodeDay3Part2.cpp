@@ -49,5 +49,5 @@ int main()
     int d = getTrees(map, numOfRows, numOfCols, 7, 1);
     int e = getTrees(map, numOfRows, numOfCols, 1, 2);
     
-    std::cout << a* b * c * d * e << std::endl;
+    std::cout << long(a* b * c * d * e) << std::endl;
 }
