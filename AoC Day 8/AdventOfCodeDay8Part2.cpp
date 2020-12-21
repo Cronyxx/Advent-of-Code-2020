@@ -3,7 +3,6 @@
 #include <string>
 #include <vector>
 #include <regex>
-#include <iterator>
 
 struct Instruction 
 {
